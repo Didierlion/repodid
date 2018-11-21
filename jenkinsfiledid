@@ -1,0 +1,10 @@
+node {
+        stage('First'){
+                print "hello"
+                    sh 'env'
+                    }
+        stage ('second'){
+            print '2 parties de la formation'
+    }                    
+                    
+}
